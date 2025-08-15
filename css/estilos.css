@@ -15,11 +15,23 @@ html, body {
     padding: 20px;
     
 }
+h1,h4,h5{
+    text-align: center;
+}
+div h1{
+    padding-top: 10px;
+    font-size: 3rem;    
+}
+a:link, a:visited{
+    text-decoration: none;
+    color:black;
+}
 
 nav{
     background-color: #ffd500ad;
 }
 
+/*Inicio*/
 #principal{
     height: 600px;
     text-align: center;
@@ -51,16 +63,6 @@ nav{
     background-color: #ffd500c2;
     font-weight:500 ;
 }
-h1,h4,h5{
-    text-align: center;
-}
-div h1{
-    padding-top: 10px;
-    font-size: 3rem;    
-}
-
-
-
 
 
 /*Imagenes*/
@@ -68,11 +70,9 @@ img.imagen{
     height: 80px;
     margin: 10px;
 }
-
 img.border{
     --bs-border-color: #794C3F55 ;
 }
-
 #impacto img{
     height: 300px; 
 }
@@ -94,10 +94,7 @@ form input, form textarea, form select{
     background-color: #faedd6 !important;
 }
 
-a:link, a:visited{
-    text-decoration: none;
-    color:black;
-}
+
 
 /*Pie de página*/
 .pie-de-pagina{
