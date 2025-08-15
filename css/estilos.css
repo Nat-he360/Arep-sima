@@ -108,7 +108,7 @@ a:link, a:visited{
 }
 .pie-de-pagina a:visited, .pie-de-pagina a:link{
     text-decoration: none;
-    color: #2A9D8F;
+    color: #ffd500ad;
     font-weight: bold;
 }
 .pie-de-pagina a:hover{
@@ -120,37 +120,4 @@ a:link, a:visited{
 div.card{
     background-color: #794c3fe2;
     color: #FAEBCD
-}
-
-
-/*Colors*/
-.color-1{
-    background-color: #2A9D8F;
-}
-.color-2{
-    background-color: #3a2626;
-}
-.color-3{
-    background-color: #794C3F;
-}
-.color-4{
-    background-color: #794C3F55;
-}
-.color-5{
-    background-color: #794c3fe2;
-}
-.color-6{
-    background-color: #efefc7;
-}
-.color-7{
-    background-color: #FAEBCD;
-}
-.color-8{
-    background-color: #faedd6;   
-}
-.color-9{
-    background-color: #ffd500ad;
-}
-.color-10{
-    background-color: #ffd500c2
 }
