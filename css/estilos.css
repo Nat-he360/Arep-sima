@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAEBCD !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.margen{
+    margin: 10px;
+}
+.contenedor{
+    padding: 20px;
+    
+}
+
+nav{
+    background-color: #ffd500ad;
+}
+
+#principal{
+    height: 600px;
+    text-align: center;
+    
+}
+
+#principal h1 {
+    font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; 
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #3a2626;
+    text-shadow: 2px 2px 8px #794C3F55;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+#principal p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #794C3F;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+#principal button{
+    --bs-btn-padding-y: 3rem; 
+    --bs-btn-padding-x: 3rem; 
+    --bs-btn-font-size: 3rem;
+    background-color: #ffd500c2;
+    font-weight:500 ;
+}
+h1,h4,h5{
+    text-align: center;
+}
+div h1{
+    padding-top: 10px;
+    font-size: 3rem;    
+}
+
+
+
+
+
+/*Imagenes*/
+img.imagen{
+    height: 80px;
+    margin: 10px;
+}
+
+img.border{
+    --bs-border-color: #794C3F55 ;
+}
+
+#impacto img{
+    height: 300px; 
+}
+
+
+/*Formulario*/
+.formulario{
+    background-color: #794c3f;
+    color: #efefc7;
+}
+form button {
+    background-color: #ffd500c2 !important; 
+    color: #794C3F !important;            
+    border: none !important;              
+    cursor: pointer !important;
+    font-weight: bold !important;
+}
+form input, form textarea, form select{
+    background-color: #faedd6 !important;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+/*Pie de página*/
+.pie-de-pagina{
+    background-color: #3a2626;
+    color: #faebcd;
+    padding: 5px;
+    margin-top: auto;
+}
+.pie-de-pagina a:visited, .pie-de-pagina a:link{
+    text-decoration: none;
+    color: #2A9D8F;
+    font-weight: bold;
+}
+.pie-de-pagina a:hover{
+    background-color: #FAEBCD;
+    color:black;
+}
+
+
+div.card{
+    background-color: #794c3fe2;
+    color: #FAEBCD
+}
+
+
+/*Colors*/
+.color-1{
+    background-color: #2A9D8F;
+}
+.color-2{
+    background-color: #3a2626;
+}
+.color-3{
+    background-color: #794C3F;
+}
+.color-4{
+    background-color: #794C3F55;
+}
+.color-5{
+    background-color: #794c3fe2;
+}
+.color-6{
+    background-color: #efefc7;
+}
+.color-7{
+    background-color: #FAEBCD;
+}
+.color-8{
+    background-color: #faedd6;   
+}
+.color-9{
+    background-color: #ffd500ad;
+}
+.color-10{
+    background-color: #ffd500c2
+}
